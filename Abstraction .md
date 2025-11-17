@@ -29,6 +29,7 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
+```python
 rom abc import ABC
 
 class Shape(ABC):
@@ -61,6 +62,7 @@ cir=Circle() #object created for the class 'Rectangle'
 print("Area of a rectangle:", rec.calculate_area()) #call to 'calculate_area' method defined inside the class 'Rectangle'
 
 print("Area of a circle:", cir.calculate_area()) #call to 'calculate_area' method defined inside the class 'Circle'.
+```
 
 ## Output
 <img width="689" height="291" alt="488729818-aefd3bd8-4f2e-49ce-9702-276fe6ad63df" src="https://github.com/user-attachments/assets/82d10dd9-d910-44ab-a5b3-f14d395e4876" />
